@@ -4,10 +4,10 @@ import pandas as pd
 d = {'CarlosBolsonaro_following': ['dummy'], 'followers': '0'}
 df = pd.DataFrame(d, columns=['twitter_user', 'followers'], index=[0])
 
-access_token = "1086313099144122368-Jn7mtPdjLqGuWLUdEo9Sv8EzrGYSQr"
-access_token_secret = "uZ2Cw4ZmTipBDCdbNcPaNpsgmRPyAXjIKqc5u4d7hAlQg"
-consumer_key = "qfGNpjydBt0adVJggVlvyXAHj"
-consumer_secret = "S7NF7LIG3wo8526r9axW6viL204xHgGe9zOTrwhrztFIzoZcrj"
+access_token = 
+access_token_secret = 
+consumer_key = 
+consumer_secret = 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
